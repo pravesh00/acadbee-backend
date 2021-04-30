@@ -35,3 +35,12 @@ app.use('/course',courseRouter)
 //Book API
 const bookRouter = require('./routes/book')
 app.use('/book',bookRouter)
+
+//Profile API
+const profileRouter= require('./routes/profile')
+app.use('/profile',profileRouter)
+
+//HomePage API
+app.get('/',(req,res)=>{
+  res.send('HomePage of AcadBee')
+})

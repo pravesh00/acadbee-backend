@@ -1,13 +1,16 @@
 const express=require("express");
 const router=express.Router();
 const bookModel=require('../models/book');
-
+const crypto=require('../utils/uniqueId');
+const verifyToken=require('../utils/verifytoken');
 
 //add a new book
-router.post('/',async(req,res)=>{
+router.post('/',verifyToken,async(req,res)=>{
+
+    const bookID= 'B0'+crypto;
     const book=await new bookModel({
         bookName:req.body.bookName,
-        bookId:req.body.bookId,
+        bookId:bookID,
         photo:req.body.photo,
         author:req.body.author,
         year:req.body.year,
@@ -31,7 +34,7 @@ router.post('/',async(req,res)=>{
     })});
 
 
-router.get('/:courseId',async (req,res)=>{
+router.get('/:courseId',verifyToken,async (req,res)=>{
     const books=await bookModel.find({courseId:req.params.courseId}).then((a)=>{
         res.json(a)
 

@@ -1,7 +1,7 @@
 const express=require("express");
 const router=express.Router();
 const courseModel=require('../models/course');
-
+const verifyToken=require('../utils/verifytoken');
 
 //add a new course
 router.post('/', async(req,res)=>{
@@ -21,9 +21,11 @@ router.post('/', async(req,res)=>{
         })
     })});
 
+    
 //get all courses available
-router.get('/', async(req,res)=>{
+router.get('/',verifyToken, async(req,res)=>{
     try{
+    
         const courses = await courseModel.find()
         res.json(courses)
  }catch(err){

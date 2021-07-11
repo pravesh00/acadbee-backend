@@ -48,7 +48,8 @@ cd acadbee-backend
 
 * `utils`: It contains logic for verifying JsonWebToken.
 
-# Figma UI link: https://www.figma.com/file/zySMHK1BjTmsOblP4F27Oy/Reference-book-case-study?node-id=0%3A1
+# Figma UI link: 
+https://www.figma.com/file/zySMHK1BjTmsOblP4F27Oy/Reference-book-case-study?node-id=0%3A1
 
 
 

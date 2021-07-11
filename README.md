@@ -34,9 +34,8 @@ cd acadbee-backend
 
 **To start server**
 ```
-1.cd server
-2.npm install
-3.nodemon start
+1.npm install
+2.nodemon start
 ```
 
 ## Components

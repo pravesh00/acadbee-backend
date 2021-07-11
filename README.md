@@ -51,6 +51,12 @@ cd acadbee-backend
 ## Figma UI link 
 https://www.figma.com/file/zySMHK1BjTmsOblP4F27Oy/Reference-book-case-study?node-id=0%3A1
 
+## UI Sample Video
+
+https://user-images.githubusercontent.com/64903405/125209242-2a34e680-e2b5-11eb-9ee2-d73ae568bd75.mp4
+
+
+
 
 
 

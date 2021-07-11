@@ -1,6 +1,6 @@
 # AcadBee Backend 
 ## About
-A reference book app which makes suggesting books easy for professors / instructors and help organizing lectures notes and e-material predominant in the online teaching environment.
+A reference book app that makes suggesting books easy for professors/instructors and helps to organize lectures notes and e-material predominant in the online teaching environment.
 
 ### Libraries
 * Mongoose

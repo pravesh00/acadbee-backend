@@ -48,21 +48,8 @@ cd acadbee-backend
 
 * `utils`: It contains logic for verifying JsonWebToken.
 
-+-------------------+     +-------------------+     +-------------------+     +-------------------+     +-------------------+
-|    bookModel      |     |    commentModel   |     |    courseModel    |     |   profileModel    |     |    ratingModel    |
-+-------------------+     +-------------------+     +-------------------+     +-------------------+     +-------------------+
-| bookId (PK)       |     | commentId (PK)    |     | courseId (PK)     |     | profileId (PK)    |     | ratingId (PK)     |
-| bookName          |     | profileId         |     | instructorId      |     | name              |     | ratedById         |
-| photo             |     | comment           |     | instructorName    |     | username          |     +-------------------+
-| author            |     | name              |     +-------------------+     | instituteName     |
-| year              |     | profilePic        |                               | yearStart         |
-| uploadFile        |     | bookId (FK)       |                               | yearEnd           |
-| link              |     +-------------------+                               | password          |
-| price             |                                                         +-------------------+
-| sampleFile        |
-| category          |
-| courseId (FK)     |
-+-------------------+
+<img width="1217" alt="image" src="https://github.com/pravesh00/acadbee-backend/assets/64903405/cbdc443e-47b0-4d79-afef-28bcdc960cc5">
+
 
 
 ## Figma UI link 

@@ -48,6 +48,23 @@ cd acadbee-backend
 
 * `utils`: It contains logic for verifying JsonWebToken.
 
++-------------------+     +-------------------+     +-------------------+     +-------------------+     +-------------------+
+|    bookModel      |     |    commentModel   |     |    courseModel    |     |   profileModel    |     |    ratingModel    |
++-------------------+     +-------------------+     +-------------------+     +-------------------+     +-------------------+
+| bookId (PK)       |     | commentId (PK)    |     | courseId (PK)     |     | profileId (PK)    |     | ratingId (PK)     |
+| bookName          |     | profileId         |     | instructorId      |     | name              |     | ratedById         |
+| photo             |     | comment           |     | instructorName    |     | username          |     +-------------------+
+| author            |     | name              |     +-------------------+     | instituteName     |
+| year              |     | profilePic        |                               | yearStart         |
+| uploadFile        |     | bookId (FK)       |                               | yearEnd           |
+| link              |     +-------------------+                               | password          |
+| price             |                                                         +-------------------+
+| sampleFile        |
+| category          |
+| courseId (FK)     |
++-------------------+
+
+
 ## Figma UI link 
 https://www.figma.com/file/zySMHK1BjTmsOblP4F27Oy/Reference-book-case-study?node-id=0%3A1
 
